@@ -1,0 +1,15 @@
+.ProfileDescriptionAvatar {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProfileDescriptionAvatar img {
+    height: 90px;
+    border-radius: 5%;
+}
+
+.ProfileDescriptionAvatar img:hover {
+    transform: scale(1.1);
+}

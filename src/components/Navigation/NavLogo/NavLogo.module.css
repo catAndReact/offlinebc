@@ -1,0 +1,6 @@
+.NavLogo {
+    display: flex;
+    flex: 0 0 60px;
+    justify-content: center;
+    align-items: center;
+}

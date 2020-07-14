@@ -1,0 +1,5 @@
+.ProfileDescription {
+    display: flex;
+    flex: 0 0 100px;
+    align-items: center;
+}

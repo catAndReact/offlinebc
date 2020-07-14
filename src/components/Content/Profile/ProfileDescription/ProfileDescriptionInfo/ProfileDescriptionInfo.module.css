@@ -1,0 +1,16 @@
+.ProfileDescriptionInfo {
+    display: flex;
+    flex: 11 11;
+    flex-direction: column;
+}
+
+.myName {
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.item:hover {
+    color: var(--hover-text-color);
+    cursor: pointer;
+}

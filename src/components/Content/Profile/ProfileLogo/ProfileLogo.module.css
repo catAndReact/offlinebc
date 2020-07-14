@@ -1,0 +1,9 @@
+.ProfileLogo {
+    display: flex;
+    flex: 0 0 200px;
+    justify-content: center;
+}
+
+.ProfileLogo img {
+    width: 90%;
+}

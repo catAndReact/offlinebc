@@ -1,0 +1,14 @@
+.ContentHeader {
+    display: flex;
+    flex: 0 0 60px;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    padding-left: 50px;
+    font-size: 25px;
+    font-weight: 500;
+    border: 1px solid var(--content-border-color);
+    border-top: 0;
+    z-index: 1;
+    background-color: var(--main-color);
+}
