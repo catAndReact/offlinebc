@@ -3,4 +3,9 @@
     --hover-text-color: #1da1f2;
     --hover-button-color: rgb(28, 28, 41);
     --content-border-color: #555555;
+    --input-main-color: rgb(28, 28, 41);
+    --input-border-focus-color: #1da1f2;
+    --button-bckg-color: #1a93df;
+    --hover-button-bckg-color: #1da1f2;
+
   }

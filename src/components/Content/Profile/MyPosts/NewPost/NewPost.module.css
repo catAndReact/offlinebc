@@ -12,7 +12,20 @@
 }
 
 .textarea textarea {
+    outline: none;
     width: 100%;
+    resize: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 1.25rem;
+    background-color: var(--input-main-color);
+    color: white;
+    border: 0;
+    border: 1px solid var(--input-main-color);
+}
+
+.textarea textarea:focus {
+    border: 1px solid var(--input-border-focus-color);
 }
 
 .button {
@@ -20,4 +33,26 @@
     display: flex;
     flex: 1 1 10px;
     align-self: flex-end;
+}
+
+.button button {
+    padding: 5px 15px;
+    font-size: 18px;
+    border-radius: 1.25rem;
+    background-color: var(--button-bckg-color);
+    color: white;
+    border: none;
+    outline: none;
+    border: 1px solid var(--button-bckg-color);
+}
+
+.button button:hover {
+    cursor: pointer;
+    background-color: var(--hover-button-bckg-color);
+}
+
+.button button:focus {
+    cursor: pointer;
+    border: 1px solid white;
+    -webkit-transition: .4s ease-out;
 }

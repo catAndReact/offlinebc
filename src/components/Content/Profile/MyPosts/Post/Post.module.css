@@ -1,0 +1,25 @@
+.Post {
+    margin-top: 20px;
+    display: flex;
+    flex: 0 0 80px;
+}
+
+.avatar {
+    height: 80px;
+    display: flex;
+    flex: 1 1 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar img {
+    height: 80%;
+    border-radius: 50%;
+}
+
+.text {
+    height: 80px;
+    display: flex;
+    flex: 9 9 auto;
+    padding: 10px;
+}

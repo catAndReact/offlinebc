@@ -6,7 +6,7 @@ import Profile from "./Profile/Profile";
 const Content = () => {
   return (
     <div className={styles.Content}>
-      <ContentHeader />
+      <ContentHeader page="Profile"/>
       <Profile />
     </div>
   );

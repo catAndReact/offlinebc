@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from './ContentHeader.module.css'
 
-const ContentHeader = () => {
+const ContentHeader = (props) => {
     return (
         <div className={styles.ContentHeader}>
-            ContentHeader
+            {props.page}
         </div>
     )
 }
