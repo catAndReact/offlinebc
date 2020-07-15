@@ -1,0 +1,23 @@
+.NewPost {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+}
+
+.textarea {
+    display: flex;
+    flex: 9 9 65px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+.textarea textarea {
+    width: 100%;
+}
+
+.button {
+    margin-top: 5px;
+    display: flex;
+    flex: 1 1 10px;
+    align-self: flex-end;
+}

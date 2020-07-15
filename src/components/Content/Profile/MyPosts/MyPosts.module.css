@@ -1,4 +1,17 @@
 .MyPosts {
     display: flex;
     flex: 1 1 auto;
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 90%;
+    flex-direction: column;
+}
+
+.MyPosts span {
+    font-size: 20px;
+    font-weight: 600;
+}
+.MyPosts span:hover {
+    color: var(--hover-text-color);
+    cursor: pointer;
 }
