@@ -1,13 +1,16 @@
 .Post {
     margin-top: 20px;
     display: flex;
-    flex: 0 0 80px;
+    flex: 0 0 60px;
+    border-radius: 1.25rem;
+    background-color: var(--post-color);
+    align-items: center;
 }
 
 .avatar {
     height: 80px;
     display: flex;
-    flex: 1 1 80px;
+    flex: 0 0 80px;
     justify-content: center;
     align-items: center;
 }
@@ -18,8 +21,9 @@
 }
 
 .text {
-    height: 80px;
     display: flex;
-    flex: 9 9 auto;
-    padding: 10px;
+    flex: 1 1 auto;
+    padding-left: 10px;
+    justify-content: flex-start;
+    align-items: center;
 }

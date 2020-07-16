@@ -9,6 +9,12 @@ export const MyPosts = () => {
             <span>My Posts</span>
             <NewPost />
             <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
         </div>
     )
 }
