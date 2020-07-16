@@ -7,8 +7,7 @@
     padding-left: 50px;
     font-size: 25px;
     font-weight: 500;
-    border: 1px solid var(--content-border-color);
-    border-top: 0;
+    border-bottom: 1px solid var(--content-border-color);
     z-index: 1;
     background-color: var(--main-color);
 }
