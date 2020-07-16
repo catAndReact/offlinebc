@@ -1,0 +1,57 @@
+.DialogSendMessage {
+    display: flex;
+    flex: 0 0 60px;
+    position: sticky;
+    bottom: 0;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+    z-index: 1;
+    border: 1px solid var(--input-main-color);
+    background-color: var(--input-main-color);
+    border-radius: 1.25rem;
+}
+.textarea {
+    display: flex;
+    flex: 9 9 65px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+.textarea textarea {
+    outline: none;
+    width: 100%;
+    resize: none;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: var(--input-main-color);
+    border: none;
+    border-radius: 1.25rem;
+    
+    
+}
+
+
+.button {
+    margin-top: 5px;
+    display: flex;
+    flex: 1 1 10px;
+    align-self: center;
+}
+
+.button button {
+    padding: 5px 15px;
+    font-size: 18px;
+    border-radius: 1.25rem;
+    background-color: var(--input-main-color);
+    color: white;
+    border: none;
+    outline: none;
+    border: 1px solid var(--input-main-color);
+}
+
+.button button:hover {
+    cursor: pointer;
+    background-color: var(--hover-button-bckg-color);
+}

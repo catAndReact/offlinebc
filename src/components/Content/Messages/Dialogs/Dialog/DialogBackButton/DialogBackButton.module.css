@@ -1,0 +1,16 @@
+.DialogBackButton {
+    flex: 0 0 20px;
+    width: 25px;
+    position: fixed;
+    top: 65px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+.DialogBackButton:hover {
+    border-radius: 5px;
+    background-color: var(--input-main-color);
+    
+}
+

@@ -1,5 +1,8 @@
 @import './assets/styles/root.css';
 
+html::-webkit-scrollbar {
+  display: none;
+}
 html,
 body {
   padding: 0;

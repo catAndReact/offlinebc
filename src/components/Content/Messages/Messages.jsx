@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Messages.module.css'
 import Dialogs from './Dialogs/Dialogs'
+import { NavLink } from "react-router-dom";
 
 const Messages = () => {
     return (
@@ -8,14 +9,7 @@ const Messages = () => {
             <div className={styles.mainItem}>
                 <h1>Messages</h1>
             </div>
-            <Dialogs />
-            <Dialogs />
-            <Dialogs />
-            <Dialogs />
-            <Dialogs />
-            <Dialogs />
-            <Dialogs />
-            <Dialogs />
+            <NavLink to="/dialog"><Dialogs /></NavLink>
         </div>
     )
 }

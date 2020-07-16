@@ -14,9 +14,21 @@
     
 }
 
+.item a {
+    text-decoration: none;
+    color: white;
+}
+
 .item:hover {
     cursor: pointer;
     border-radius: 1.25rem;
     background-color: var(--hover-button-color);
+}
+
+.item:hover a {
+
     color: var(--hover-text-color);
 }
+
+
+

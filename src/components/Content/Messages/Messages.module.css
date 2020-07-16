@@ -7,7 +7,14 @@
     flex-direction: column;
 }
 
+.Messages a {
+    text-decoration: none;
+    color: white;
+}
+
 .mainItem {
     display: flex;
     flex: 0 0 25px;
 }
+
+

@@ -1,0 +1,33 @@
+.DialogMessage {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex: 0 0 60px;
+    min-width: 50px;
+    align-items: center;
+}
+
+.avatar {
+    height: 40px;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    align-self: flex-end;
+}
+
+.avatar img {
+    height: 80%;
+    border-radius: 50%;
+}
+
+.text {
+    display: flex;
+    flex: 1 1 auto;
+    max-width: 80%;
+    margin-left: 5px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 8px;
+    border-radius: 15px;
+    background-color: var(--post-color);
+}

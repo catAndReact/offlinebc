@@ -1,18 +1,28 @@
-import React from 'react'
-import styles from './Dialog.module.css'
-import MyAvatar from './../../../../../assets/images/avatar.png'
-import MortyAvatar from './../../../../../assets/images/Mortymer.png'
+import React from "react";
+import styles from "./Dialog.module.css";
+import DialogBackButton from "./DialogBackButton/DialogBackButton";
+import DialogMessage from "./DialogMessage/DialogMessage";
+import DialogMyMessage from "./DialogMyMessage/DialogMyMessage";
+import DialogSendMessage from "./DialogSendMessage/DialogSendMessage";
 
 const Dialog = () => {
-    return (
-        <div className={styles.Dialog}>
-            <div className={styles.backButton}>BackButton</div>
-            <div>MortyMessage</div>
-            <div>MyMessage</div>
-            <div className={styles.sendMessage}><textarea name="sendMessage" id="sendMessage" ></textarea></div>
-            
-        </div>
-    )
-}
+  return (
+    <div className={styles.Dialog}>
+        <DialogBackButton />
+        <DialogMessage text="Lorem ipsum dolor sit amet."/>
+        <DialogMyMessage />
+        <DialogMyMessage />
+        <DialogMyMessage />
+        <DialogMyMessage />
+        <DialogMyMessage />
+        <DialogMyMessage />
+        <DialogMyMessage />
+        <DialogMyMessage />
+        <DialogMyMessage />
+        <DialogMessage text="Lorem ipsum dolor sit amet."/>
+        <DialogSendMessage />
+    </div>
+  );
+};
 
 export default Dialog;
